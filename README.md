@@ -6,6 +6,9 @@ So I did some integration.
 
 It is not good for frequent emailing. Because it might be slow.
 
+also php5-cli should be installed.
+
+
     //how to use:
     
     var phpmailer=require('nodejs-phpmailer');
