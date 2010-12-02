@@ -115,21 +115,21 @@ simpler text send example:
     });
 
 
- AddAddress,AddReplyTo,AddCC,AddBCC are arrays of objects like
+AddAddress,AddReplyTo,AddCC,AddBCC are arrays of objects like
    
     {
      "email":"example@example.com",
      "name":"Recipient name"
     }
    
- or
+or
    
     "example@example.com"
    
- So it could be an object with properties or a string.
+So it could be an object with properties or a string.
  
- if "AutoImages" is true then it searches for img tags and for background tags
- and replaces them with cid and adds an item to AddEmbeddedImage with AutoImagesPath.
+if "AutoImages" is true then it searches for img tags and for background tags
+and replaces them with cid and adds an item to AddEmbeddedImage with AutoImagesPath.
    
 AddEmbeddedImage is an array of objects like
 
