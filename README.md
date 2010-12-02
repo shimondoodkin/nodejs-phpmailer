@@ -1,6 +1,7 @@
 ##nodejs-phpmailer
 At the moment there is no mime encoding email module for node js.
 I wanted to send beutiful registration emails with inline images.
+
 So I did some integration.
 
 It is not good for frequent emailing. Because it might be slow.
