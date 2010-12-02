@@ -117,31 +117,33 @@ simpler text send example:
 
  AddAddress,AddReplyTo,AddCC,AddBCC are arrays of objects like
    
-   {
-    "email":"example@example.com",
-    "name":"Recipient name"
-   }
+    {
+     "email":"example@example.com",
+     "name":"Recipient name"
+    }
    
-   or
+ or
    
-   "example@example.com"
+    "example@example.com"
    
  So it could be an object with properties or a string.
  
  if "AutoImages" is true then it searches for img tags and for background tags
  and replaces them with cid and adds an item to AddEmbeddedImage with AutoImagesPath.
    
-   AddEmbeddedImage is an array of objects like
-   {
-    "path":__dirname."/phpmailer.gif",
-    "cid":"logoimg"
-   }
+AddEmbeddedImage is an array of objects like
+
+    {
+     "path":__dirname."/phpmailer.gif",
+     "cid":"logoimg"
+    }
    
-   AddAttachment is an array of objects like
-   {
-    "path":__dirname."/phpmailer_mini.gif",
-    "name":"phpmailer_mini.gif"
-   }
+AddAttachment is an array of objects like
+
+    {
+     "path":__dirname."/phpmailer_mini.gif",
+     "name":"phpmailer_mini.gif"
+    }
 
 
 Also you could use a template engine to generate the html = )
